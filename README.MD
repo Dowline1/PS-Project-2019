@@ -18,6 +18,7 @@ This repository contains my files, data and python code for the Programming & Sc
 ## Background
 
 **Ronald Fisher**
+
 Ronald Fisher was a statistician and also a genetecist who lived during the period 17-Feb-1890 to 29-Jul-1962 born in Britain recognised by many as the person who pioneered the application of statisitical procedures to designing scientific experiments. Fisher attended the University of Cambridge  where he was awarded a scholarship in the study of Mathematics and went on to graduate in 1912 with his B.A..
 
 Fisher remained in Cambridge University for an additional year to continue work in Astronomy and Physics and also studying the theory of errors. Upon leaving Cambrisge University Fisher then went on to teach High School Mathematics and Physics between 1914 and 1919 whilst also conducting research in statistics and Genetics.
