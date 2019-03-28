@@ -31,6 +31,10 @@ In the year 1919 Fisher continued in his career and became the Statistician for 
 
 **Iris Species**
 
+## Iris Diagram
+
+![Iris_Diagram](iris_diagram.png)
+
 **Statistical Classification**
 
 **Machine Learning**
