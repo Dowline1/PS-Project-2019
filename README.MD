@@ -15,7 +15,7 @@ This repository contains my files, data and python code for the Programming & Sc
 4. If additional help is required consult this video on [executing](https://web.microsoftstream.com/video/cd3347c4-8296-4e8c-bb63-01ef5452de17) a program.
 
 
-##Background
+## Background
 
 **Ronald Fisher**
 Ronald Fisher was a statistician and also a genetecist who lived during the period 17-Feb-1890 to 29-Jul-1962 born in Britain recognised by many as the person who pioneered the application of statisitical procedures to designing scientific experiments. Fisher attended the University of Cambridge  where he was awarded a scholarship in the study of Mathematics and went on to graduate in 1912 with his B.A..
@@ -37,11 +37,11 @@ Support Vector Machines
 
 
 
-##How to Run the Code
+## How to Run the Code
 
 
 
-##References & File Sources
+## References & File Sources
 Note: Additional reference information and detailed commentary on how the Python code works can be found in the respective files.
 
 - fisher_iris_dataset.txt downloaded from this [link](https://gist.github.com/curran/a08a1080b88344b0c8a7)
