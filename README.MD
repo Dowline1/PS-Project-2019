@@ -209,3 +209,5 @@ Note: Additional reference information and detailed commentary on how the Python
 - fisher_iris_dataset.txt downloaded from this [link](https://gist.github.com/curran/a08a1080b88344b0c8a7)
 - The use of Multiple Measurements in Taxonomic Problems by R.A. Fisher [link](https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1469-1809.1936.tb02137.x)
 - Ronald Fisher [link](https://www.britannica.com/biography/Ronald-Aylmer-Fisher)
+- Iris Diagram [link](https://www.pinterest.ie/pin/325174035570472597/)
+- Reading CVS file with Pandas [link](https://datatofish.com/use-pandas-to-calculate-stats-from-an-imported-csv-file/)
