@@ -46,18 +46,21 @@ Support Vector Machines
 
 ## Results of Python Calculations
 
-**Overall Dataset**
-| Calculation | Sepal Length | Sepal Width | Petal Length | Petal Width |
-| --- | --- | --- | --- | --- |
-| Mean | 5.843 | 3.054 | 3.759 | 1.199 |
-| Median | 5.8 | 3 | 4.35 | 1.3 |
+**Overall Dataset Mean**
+|     Column   |  Mean | 
+|--------------|-------| 
+| sepal_length | 5.843 | 
+| sepal_width  | 3.054 | 
+| petal_length | 3.759 | 
+| petal_width  | 1.199 | 
 
-**Data by Species**
-| Species | Sepal Length | Sepal Width | Petal Length | Petal Width |
-| --- | --- | --- | --- | --- |
-| Setosa | 5.006 | 3.418 | 1.464 | 0.244 |
-| Versicolor | 
-|
+
+**Mean by Species**
+| species    | sepal_length | sepal_width | petal_length | petal_width | 
+|------------|--------------|-------------|--------------|-------------| 
+| setosa     | 5.006        | 3.418       | 1.464        | 0.244       | 
+| versicolor | 5.936        | 2.77        | 4.26         | 1.326       | 
+| virginica  | 6.588        | 2.974       | 5.552        | 2.026       | 
 
 
 
@@ -229,3 +232,5 @@ Note: Additional reference information and detailed commentary on how the Python
 - Iris Diagram [link](https://www.pinterest.ie/pin/325174035570472597/)
 - Reading CVS file with Pandas [link](https://datatofish.com/use-pandas-to-calculate-stats-from-an-imported-csv-file/)
 - Converting Dataframe to CSV [link](https://chrisalbon.com/python/data_wrangling/pandas_saving_dataframe_as_csv/)
+- Converting .csv to .md [link](https://donatstudios.com/CsvToMarkdownTable)
+- Group by for mean [link](https://datatofish.com/use-pandas-to-calculate-stats-from-an-imported-csv-file/)
