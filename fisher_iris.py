@@ -3,9 +3,11 @@
 # This will be my main file for doing calculations for Project 2019 of Programming & Scripting.
 
 # Importing Pandas module to python for calculations and importing of csv file with data.
+# Importing numpy and matplotlib for plots and graphs
 import pandas as pd
-import pytablereader as ptr 
-import pytablewriter as ptw
+import numpy as np 
+import matplotlib.pyplot as plt 
+
 
 # Reads in the Iris Dataset into python.
 # Code adapted from: https://datatofish.com/use-pandas-to-calculate-stats-from-an-imported-csv-file/
@@ -27,4 +29,6 @@ overall_mean.to_csv('overall_mean.csv')
 median_by_species.to_csv('median_by_species.csv')
 overall_median.to_csv('overall_median.csv')
 
+df.hist(alpha=0.5, bins=10)
+plt.savefig('Overall_Histogram.png')
 
