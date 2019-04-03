@@ -54,6 +54,16 @@ Support Vector Machines
 | petal_length | 3.759 | 
 | petal_width  | 1.199 | 
 
+**Overall Dataset Median**
+|    Column    |Median| 
+|--------------|------| 
+| sepal_length | 5.8  | 
+| sepal_width  | 3.0  | 
+| petal_length | 4.35 | 
+| petal_width  | 1.3  | 
+
+
+
 
 **Mean by Species**
 | species    | sepal_length | sepal_width | petal_length | petal_width | 
@@ -61,6 +71,15 @@ Support Vector Machines
 | setosa     | 5.006        | 3.418       | 1.464        | 0.244       | 
 | versicolor | 5.936        | 2.77        | 4.26         | 1.326       | 
 | virginica  | 6.588        | 2.974       | 5.552        | 2.026       | 
+
+**Median by Species**
+| species    | sepal_length | sepal_width | petal_length | petal_width | 
+|------------|--------------|-------------|--------------|-------------| 
+| setosa     | 5.0          | 3.4         | 1.5          | 0.2         | 
+| versicolor | 5.9          | 2.8         | 4.35         | 1.3         | 
+| virginica  | 6.5          | 3.0         | 5.55         | 2.0         | 
+
+
 
 
 
