@@ -44,7 +44,24 @@ Support Vector Machines
 
 ## How to Run the Code
 
-## Data Table
+## Results of Python Calculations
+
+**Overall Dataset**
+| Calculation | Sepal Length | Sepal Width | Petal Length | Petal Width |
+| --- | --- | --- | --- | --- |
+| Mean | 5.843 | 3.054 | 3.759 | 1.199 |
+| Median | 5.8 | 3 | 4.35 | 1.3 |
+
+**Data by Species**
+| Species | Sepal Length | Sepal Width | Petal Length | Petal Width |
+| --- | --- | --- | --- | --- |
+| Setosa | 5.006 | 3.418 | 1.464 | 0.244 |
+| Versicolor | 
+|
+
+
+
+## Fisher Iris Dataset Table
 
 | sepal_length | sepal_width | petal_length | petal_width | species |
 | --- | --- | --- | --- | --- |
@@ -211,3 +228,4 @@ Note: Additional reference information and detailed commentary on how the Python
 - Ronald Fisher [link](https://www.britannica.com/biography/Ronald-Aylmer-Fisher)
 - Iris Diagram [link](https://www.pinterest.ie/pin/325174035570472597/)
 - Reading CVS file with Pandas [link](https://datatofish.com/use-pandas-to-calculate-stats-from-an-imported-csv-file/)
+- Converting Dataframe to CSV [link](https://chrisalbon.com/python/data_wrangling/pandas_saving_dataframe_as_csv/)
