@@ -12,7 +12,7 @@ import seaborn as sbn
 
 # Reads in the Iris Dataset into python.
 # Code adapted from: https://datatofish.com/use-pandas-to-calculate-stats-from-an-imported-csv-file/
-df = pd.read_csv (r'fisher_iris_dataset.csv')
+df = pd.read_csv (r'files/fisher_iris_dataset.csv')
 
 # Mean by Species code adapted from: https://datatofish.com/use-pandas-to-calculate-stats-from-an-imported-csv-file/
 mean_by_species = round(df.groupby(['species']).mean(),3)
