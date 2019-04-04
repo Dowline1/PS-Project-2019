@@ -33,7 +33,7 @@ In the year 1919 Fisher continued in his career and became the Statistician for 
 
 ## Iris Diagram
 
-![Iris_Diagram](iris_diagram.png =250x250)
+<img align="left" width="250" height="250" src="iris_diagram.png">
 
 **Statistical Classification**
 
