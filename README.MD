@@ -43,11 +43,13 @@ Support Vector Machines
 ## How to Run the Code
 
 ## Histograms of Dataset
-<img align='centre' width="800" height="800" src="overall_histogram_trellis.png">
+<img align='centre' width="600" height="600" src="overall_histogram_trellis.png">
 
 <img align='left' width="400" height="400" src="histogram_sepal_width_sepal_length_comparison.png">
 
 <img align='right' width="400" height="400" src="histogram_petal_width_petal_length_comparison.png">
+
+<p align="left">
 
 ## Results of Python Calculations
 
@@ -266,3 +268,5 @@ Note: Additional reference information and detailed commentary on how the Python
 - Seaborn guide for Histograms [link](http://python-graph-gallery.com/histogram/)
 - Seaborn guide for Scatter Plots [link](http://python-graph-gallery.com/scatter-plot/)
 - Color codes [link](https://matplotlib.org/examples/color/named_colors.html)
+
+</p>
