@@ -33,7 +33,7 @@ In the year 1919 Fisher continued in his career and became the Statistician for 
 
 ## Iris Diagram
 
-![Iris_Diagram](iris_diagram.png)
+![Iris_Diagram](iris_diagram.png =250x250)
 
 **Statistical Classification**
 
@@ -254,4 +254,6 @@ Note: Additional reference information and detailed commentary on how the Python
 - Converting .csv to .md [link](https://donatstudios.com/CsvToMarkdownTable)
 - Group by for mean [link](https://datatofish.com/use-pandas-to-calculate-stats-from-an-imported-csv-file/)
 - Seaborn info for graphing [link](https://python-graph-gallery.com/25-histogram-with-several-variables-seaborn/)
-- Seaborn guide for graphs [link](http://python-graph-gallery.com/histogram/)
+- Seaborn guide for Histograms [link](http://python-graph-gallery.com/histogram/)
+- Seaborn guide for Scatter Plots [link](http://python-graph-gallery.com/scatter-plot/)
+- Color codes [link](https://matplotlib.org/examples/color/named_colors.html)

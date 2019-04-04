@@ -30,20 +30,48 @@ overall_mean.to_csv('overall_mean.csv')
 median_by_species.to_csv('median_by_species.csv')
 overall_median.to_csv('overall_median.csv')
 
+
+
+
+# Colors SL=Blue, SW=Orange, PL=Cyan, PW=Crimson
+# Color codes taken from: https://matplotlib.org/examples/color/named_colors.html
 # Seaborn graphs adapting code from: http://python-graph-gallery.com/histogram/
 sbn.distplot(df.sepal_length, color='blue',label='Sepal Length')
 sbn.distplot(df.sepal_width, color='orange',label='Sepal Width')
 plt.legend()
-plt.savefig('sepal_width_sepal_length_comparison.png')
+plt.savefig('histogram_sepal_width_sepal_length_comparison.png')
+
+# Needed to clear plot for next plot
+plt.cla()
+
+sbn.distplot(df.petal_length, color='cyan',label='Petal Length')
+sbn.distplot(df.petal_width, color='crimson',label='Petal Width')
+plt.legend()
+plt.savefig('histogram_petal_width_petal_length_comparison.png')
+
+# Code to create scatterplot adapted from: http://python-graph-gallery.com/scatter-plot/
+sbn.lmplot( x='sepal_length', y='sepal_width', data=df, fit_reg=False, hue='species', legend=False)
+plt.legend(loc='lower right')
+plt.savefig('sepal_length_sepal_width_scatter.png')
+
+sbn.lmplot( x='petal_length', y='petal_width', data=df, fit_reg=False, hue='species', legend=False)
+plt.legend(loc='lower right')
+plt.savefig('petal_length_petal_width_scatter.png')
+
+
 
 # Code for graphs adapted from: https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html 
 df.hist(bins=10)
-plt.savefig('Overall_Histogram.png')
+plt.savefig('overall_histogram_trellis.png')
+
 df.hist(column='sepal_length',stacked=True,bins=10,by='species')
-plt.savefig('sepal_length_Histogram.png')
-df.hist(column='sepal_width',bins=10)
-plt.savefig('sepal_width_Histogram.png')
-df.hist(column='petal_length',bins=10)
-plt.savefig('petal_length_Histogram.png')
-df.hist(column='petal_width',bins=10)
-plt.savefig('petal_width_Histogram.png')
+plt.savefig('species_histogram_sepal_length_trellis.png')
+
+df.hist(column='sepal_width',stacked=True,bins=10,by='species')
+plt.savefig('species_histogram_sepal_width_trellis.png')
+
+df.hist(column='petal_length',stacked=True, bins=10,by='species' )
+plt.savefig('species_histogram_petal_length_trellis.png')
+
+df.hist(column='petal_width',stacked=True,bins=10,by='species')
+plt.savefig('species_histogram_petal_width_trellis.png')
