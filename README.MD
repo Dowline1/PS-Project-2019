@@ -253,3 +253,5 @@ Note: Additional reference information and detailed commentary on how the Python
 - Converting Dataframe to CSV [link](https://chrisalbon.com/python/data_wrangling/pandas_saving_dataframe_as_csv/)
 - Converting .csv to .md [link](https://donatstudios.com/CsvToMarkdownTable)
 - Group by for mean [link](https://datatofish.com/use-pandas-to-calculate-stats-from-an-imported-csv-file/)
+- Seaborn info for graphing [link](https://python-graph-gallery.com/25-histogram-with-several-variables-seaborn/)
+- Seaborn guide for graphs [link](http://python-graph-gallery.com/histogram/)
