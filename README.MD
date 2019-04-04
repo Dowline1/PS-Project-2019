@@ -47,6 +47,7 @@ Support Vector Machines
 
 <img align='left' width="400" height="400" src="histogram_sepal_width_sepal_length_comparison.png">
 
+<img align='right' width="400" height="400" src="histogram_petal_width_petal_length_comparison.png">
 
 ## Results of Python Calculations
 
