@@ -58,6 +58,7 @@ Support Vector Machines
 ## Results of Python Calculations
 
 **Overall Dataset Mean**
+
 |    Column    |  Mean | 
 |--------------|-------| 
 | sepal_length | 5.843 | 
@@ -66,6 +67,7 @@ Support Vector Machines
 | petal_width  | 1.199 | 
 
 **Overall Dataset Median**
+
 |    Column    |Median| 
 |--------------|------| 
 | sepal_length | 5.8  | 
@@ -77,6 +79,7 @@ Support Vector Machines
 
 
 **Mean by Species**
+
 | species    | sepal_length | sepal_width | petal_length | petal_width | 
 |------------|--------------|-------------|--------------|-------------| 
 | setosa     | 5.006        | 3.418       | 1.464        | 0.244       | 
@@ -84,6 +87,7 @@ Support Vector Machines
 | virginica  | 6.588        | 2.974       | 5.552        | 2.026       | 
 
 **Median by Species**
+
 | species    | sepal_length | sepal_width | petal_length | petal_width | 
 |------------|--------------|-------------|--------------|-------------| 
 | setosa     | 5.0          | 3.4         | 1.5          | 0.2         | 
