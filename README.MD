@@ -43,11 +43,11 @@ Support Vector Machines
 ## How to Run the Code
 
 ## Histograms of Dataset
-<img align='centre' width="600" height="600" src="overall_histogram_trellis.png">
+<img width="600" height="600" src="overall_histogram_trellis.png">
 
-<img align='left' width="425" height="425" src="histogram_sepal_width_sepal_length_comparison.png">
+<img width="600" height="600" src="histogram_sepal_width_sepal_length_comparison.png">
 
-<img align='right' width="425" height="425" src="histogram_petal_width_petal_length_comparison.png">
+<img width="600" height="600" src="histogram_petal_width_petal_length_comparison.png">
 
 
 
