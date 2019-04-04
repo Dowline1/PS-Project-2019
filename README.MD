@@ -35,6 +35,17 @@ In the year 1919 Fisher continued in his career and became the Statistician for 
 
 <img align="left" width="400" height="400" src="iris_diagram.png">
 
+
+
+
+
+
+
+
+
+
+
+
 **Statistical Classification**
 
 **Machine Learning**
@@ -47,7 +58,7 @@ Support Vector Machines
 ## Results of Python Calculations
 
 **Overall Dataset Mean**
-|     Column   |  Mean | 
+|    Column    |  Mean | 
 |--------------|-------| 
 | sepal_length | 5.843 | 
 | sepal_width  | 3.054 | 
