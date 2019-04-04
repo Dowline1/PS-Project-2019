@@ -55,6 +55,8 @@ Support Vector Machines
 
 **Overall Dataset Mean**
 
+</p>
+
 |    Column    |  Mean | 
 |--------------|-------| 
 | sepal_length | 5.843 | 
@@ -268,5 +270,3 @@ Note: Additional reference information and detailed commentary on how the Python
 - Seaborn guide for Histograms [link](http://python-graph-gallery.com/histogram/)
 - Seaborn guide for Scatter Plots [link](http://python-graph-gallery.com/scatter-plot/)
 - Color codes [link](https://matplotlib.org/examples/color/named_colors.html)
-
-</p>
