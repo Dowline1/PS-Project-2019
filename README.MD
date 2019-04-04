@@ -43,9 +43,9 @@ Support Vector Machines
 ## How to Run the Code
 
 ## Histograms of Dataset
-<img align='centre' width="400" height="400" src="overall_histogram_trellis.png">
+<img align='centre' width="800" height="800" src="overall_histogram_trellis.png">
 
-<img width="400" height="400" src="iris_diagram.png">
+<img align='left' width="400" height="400" src="histogram_sepal_width_sepal_length_comparison.png">
 
 
 ## Results of Python Calculations
