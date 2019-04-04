@@ -35,25 +35,18 @@ In the year 1919 Fisher continued in his career and became the Statistician for 
 
 <img width="400" height="400" src="iris_diagram.png">
 
-
-
-
-
-
-
-
-
-
-
-
 **Statistical Classification**
 
 **Machine Learning**
 Support Vector Machines
 
-
-
 ## How to Run the Code
+
+## Histograms of Dataset
+<img align='centre' width="400" height="400" src="overall_histogram_trellis.png">
+
+<img width="400" height="400" src="iris_diagram.png">
+
 
 ## Results of Python Calculations
 
