@@ -49,7 +49,7 @@ Support Vector Machines
 
 <img align='right' width="425" height="425" src="histogram_petal_width_petal_length_comparison.png">
 
-<p align="left">
+
 
 
 
@@ -57,7 +57,7 @@ Support Vector Machines
 
 **Overall Dataset Mean**
 
-</p>
+
 
 |    Column    |  Mean | 
 |--------------|-------| 
