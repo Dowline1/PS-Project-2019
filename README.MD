@@ -33,7 +33,7 @@ In the year 1919 Fisher continued in his career and became the Statistician for 
 
 ## Iris Diagram
 
-<img width="400" height="400" src="iris_diagram.png">
+<img width="400" height="400" src="images/iris_diagram.png">
 
 **Statistical Classification**
 
@@ -43,11 +43,11 @@ Support Vector Machines
 ## How to Run the Code
 
 ## Histograms of Dataset
-<img width="600" height="600" src="overall_histogram_trellis.png">
+<img width="600" height="600" src="images/overall_histogram_trellis.png">
 
-<img width="600" height="600" src="histogram_sepal_width_sepal_length_comparison.png">
+<img width="600" height="600" src="images/histogram_sepal_width_sepal_length_comparison.png">
 
-<img width="600" height="600" src="histogram_petal_width_petal_length_comparison.png">
+<img width="600" height="600" src="images/histogram_petal_width_petal_length_comparison.png">
 
 
 

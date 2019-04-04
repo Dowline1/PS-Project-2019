@@ -25,10 +25,10 @@ overall_median = round(df[['sepal_length','sepal_width','petal_length','petal_wi
 # Save data generated to csv by pandas for mean of species adapted from code in:https://chrisalbon.com/python/data_wrangling/pandas_saving_dataframe_as_csv/
 # Initially attempted to import module to convert csv to .md file however could not get to work: csv2md module
 # Used following website to convert csv to .md: https://donatstudios.com/CsvToMarkdownTable
-mean_by_species.to_csv('mean_by_species.csv')
-overall_mean.to_csv('overall_mean.csv')
-median_by_species.to_csv('median_by_species.csv')
-overall_median.to_csv('overall_median.csv')
+mean_by_species.to_csv('files/mean_by_species.csv')
+overall_mean.to_csv('files/overall_mean.csv')
+median_by_species.to_csv('files/median_by_species.csv')
+overall_median.to_csv('files/overall_median.csv')
 
 
 
@@ -39,7 +39,7 @@ overall_median.to_csv('overall_median.csv')
 sbn.distplot(df.sepal_length, color='blue',label='Sepal Length')
 sbn.distplot(df.sepal_width, color='orange',label='Sepal Width')
 plt.legend()
-plt.savefig('histogram_sepal_width_sepal_length_comparison.png')
+plt.savefig('images/histogram_sepal_width_sepal_length_comparison.png')
 
 # Needed to clear plot for next plot
 plt.cla()
@@ -47,31 +47,31 @@ plt.cla()
 sbn.distplot(df.petal_length, color='cyan',label='Petal Length')
 sbn.distplot(df.petal_width, color='crimson',label='Petal Width')
 plt.legend()
-plt.savefig('histogram_petal_width_petal_length_comparison.png')
+plt.savefig('images/histogram_petal_width_petal_length_comparison.png')
 
 # Code to create scatterplot adapted from: http://python-graph-gallery.com/scatter-plot/
 sbn.lmplot( x='sepal_length', y='sepal_width', data=df, fit_reg=False, hue='species', legend=False)
 plt.legend(loc='lower right')
-plt.savefig('sepal_length_sepal_width_scatter.png')
+plt.savefig('images/sepal_length_sepal_width_scatter.png')
 
 sbn.lmplot( x='petal_length', y='petal_width', data=df, fit_reg=False, hue='species', legend=False)
 plt.legend(loc='lower right')
-plt.savefig('petal_length_petal_width_scatter.png')
+plt.savefig('images/petal_length_petal_width_scatter.png')
 
 
 
 # Code for graphs adapted from: https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html 
 df.hist(bins=10)
-plt.savefig('overall_histogram_trellis.png')
+plt.savefig('images/overall_histogram_trellis.png')
 
 df.hist(column='sepal_length',stacked=True,bins=10,by='species')
-plt.savefig('species_histogram_sepal_length_trellis.png')
+plt.savefig('images/species_histogram_sepal_length_trellis.png')
 
 df.hist(column='sepal_width',stacked=True,bins=10,by='species')
-plt.savefig('species_histogram_sepal_width_trellis.png')
+plt.savefig('images/species_histogram_sepal_width_trellis.png')
 
 df.hist(column='petal_length',stacked=True, bins=10,by='species' )
-plt.savefig('species_histogram_petal_length_trellis.png')
+plt.savefig('images/species_histogram_petal_length_trellis.png')
 
 df.hist(column='petal_width',stacked=True,bins=10,by='species')
-plt.savefig('species_histogram_petal_width_trellis.png')
+plt.savefig('images/species_histogram_petal_width_trellis.png')
