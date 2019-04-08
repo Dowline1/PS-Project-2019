@@ -14,6 +14,11 @@ import seaborn as sbn
 # Code adapted from: https://datatofish.com/use-pandas-to-calculate-stats-from-an-imported-csv-file/
 df = pd.read_csv (r'files/fisher_iris_dataset.csv')
 
+# Filtering so that species can be placed on same histogram for species comparison code adapted from: https://pythonspot.com/pandas-filter/
+df_setosa = df[df.species == 'setosa']
+df_versicolor = df[df.species == 'versicolor']
+df_virginica = df[df.species == 'virginica']
+
 # Mean by Species code adapted from: https://datatofish.com/use-pandas-to-calculate-stats-from-an-imported-csv-file/
 mean_by_species = round(df.groupby(['species']).mean(),3)
 overall_mean = round(df[['sepal_length','sepal_width','petal_length','petal_width']].mean(),3)
@@ -48,6 +53,11 @@ sbn.distplot(df.petal_length, color='cyan',label='Petal Length')
 sbn.distplot(df.petal_width, color='crimson',label='Petal Width')
 plt.legend()
 plt.savefig('images/histogram_petal_width_petal_length_comparison.png')
+
+# Plotting Histogram by species
+plt.cla()
+
+
 
 # Code to create scatterplot adapted from: http://python-graph-gallery.com/scatter-plot/
 sbn.lmplot( x='sepal_length', y='sepal_width', data=df, fit_reg=False, hue='species', legend=False)
