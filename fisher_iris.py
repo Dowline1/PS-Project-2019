@@ -57,6 +57,39 @@ plt.savefig('images/histogram_petal_width_petal_length_comparison.png')
 # Plotting Histogram by species
 plt.cla()
 
+# Sepal length comparison
+sbn.distplot(df_setosa.sepal_length, color='magenta',label='Setosa')
+sbn.distplot(df_versicolor.sepal_length, color='g',label='Versicolor')
+sbn.distplot(df_virginica.sepal_length, color='aqua',label='Virginica')
+plt.legend()
+plt.savefig('images/histogram_sepal_length_species_comparison')
+
+plt.cla()
+
+# Sepal width comparison
+sbn.distplot(df_setosa.sepal_width, color='magenta',label='Setosa')
+sbn.distplot(df_versicolor.sepal_width, color='g',label='Versicolor')
+sbn.distplot(df_virginica.sepal_width, color='aqua',label='Virginica')
+plt.legend()
+plt.savefig('images/histogram_sepal_width_species_comparison')
+
+plt.cla()
+
+# Petal length comparison
+sbn.distplot(df_setosa.petal_length, color='magenta',label='Setosa')
+sbn.distplot(df_versicolor.petal_length, color='g',label='Versicolor')
+sbn.distplot(df_virginica.petal_length, color='aqua',label='Virginica')
+plt.legend()
+plt.savefig('images/histogram_petal_length_species_comparison')
+
+plt.cla()
+
+# Petal width comparison
+sbn.distplot(df_setosa.petal_width, color='magenta',label='Setosa')
+sbn.distplot(df_versicolor.petal_width, color='g',label='Versicolor')
+sbn.distplot(df_virginica.petal_width, color='aqua',label='Virginica')
+plt.legend()
+plt.savefig('images/histogram_petal_width_species_comparison')
 
 
 # Code to create scatterplot adapted from: http://python-graph-gallery.com/scatter-plot/
