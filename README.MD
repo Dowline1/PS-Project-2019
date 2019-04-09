@@ -64,11 +64,21 @@ Fig.iii. shows a comparison of the distribution of data points between sepal len
 
 **fig.v. Histogram Sepal Width Species Comparison**
 
+Fig.vi. show as comparison of the districbution of data points between petal length an dpetal width. The comparison again goes into greater detail in figures vii and viii and compares sepal lengths and widths across the 3 Iris species.
+
 <img width="600" height="600" src="images/histogram_petal_width_petal_length_comparison.png">
 
+**fig.vi. Histogram Petal Length & Width Comparison**
 
-<img width="600" height="600" src="images/histogram_petal_width_petal_length_comparison.png">
+<img width="600" height="600" src="images/histogram_petal_length_species_comparison.png">
 
+**fig.vii. Histogram Petal Length Species Comparison**
+
+<img width="600" height="600" src="images/histogram_petal_width_species_comparison.png">
+
+**fig.vii. Histogram Petal Width Species Comparison**
+
+## Scatterplot of Dataset
 
 
 
