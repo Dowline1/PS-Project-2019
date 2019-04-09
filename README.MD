@@ -80,7 +80,13 @@ Fig.vi. show as comparison of the districbution of data points between petal len
 
 ## Scatterplot of Dataset
 
+<img width="600" height="600" src="images/sepal_length_sepal_width_scatter.png">
 
+**fig.viii. Scatterplot Sepal Length & Width**
+
+<img width="600" height="600" src="images/petal_length_petal_width_scatter.png">
+
+**fig.ix. Scatterplot Petal Length & Width**
 
 
 ## Results of Python Calculations

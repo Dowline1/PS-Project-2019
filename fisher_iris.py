@@ -94,7 +94,7 @@ plt.savefig('images/histogram_petal_width_species_comparison')
 
 # Code to create scatterplot adapted from: http://python-graph-gallery.com/scatter-plot/
 sbn.lmplot( x='sepal_length', y='sepal_width', data=df, fit_reg=False, hue='species', legend=False)
-plt.legend(loc='lower right')
+plt.legend(loc='upper right')
 plt.savefig('images/sepal_length_sepal_width_scatter.png')
 
 sbn.lmplot( x='petal_length', y='petal_width', data=df, fit_reg=False, hue='species', legend=False)
