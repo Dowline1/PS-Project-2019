@@ -32,6 +32,7 @@ In the year 1919 Fisher continued in his career and became the Statistician for 
 **Iris Species**
 
 <img width="400" height="400" src="images/iris_diagram.png">
+
 **fig.i. Iris Diagram**
 
 **Statistical Classification**
@@ -46,17 +47,21 @@ Support Vector Machines
 Fig.ii. shows a histogram of all elements of the Iris dataset combined and gives a nice presentation of the distribution of the measurements taken during the study.
 
 <img width="600" height="600" src="images/overall_histogram_trellis.png">
+
 **fig.ii. Overall Histogram Trellis**
 
 Fig.iii. shows a comparison of the distribution of data points between sepal length and sepal width. This comparison goes into greater detail in figures iv and v and compares sepal lengths and widths across the 3 Iris species. 
 
 <img width="600" height="600" src="images/histogram_sepal_width_sepal_length_comparison.png">
+
 **fig.iii. Histogram Sepal Length & Width Comparison**
 
 <img width="600" height="600" src="images/histogram_sepal_length_species_comparison.png">
+
 **fig.iv. Histogram Sepal Length Species Comparison**
 
 <img width="600" height="600" src="images/histogram_sepal_width_species_comparison.png">
+
 **fig.v. Histogram Sepal Width Species Comparison**
 
 <img width="600" height="600" src="images/histogram_petal_width_petal_length_comparison.png">
