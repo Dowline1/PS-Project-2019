@@ -50,7 +50,6 @@ Fig.ii. shows a histogram of all elements of the Iris dataset combined and gives
 <img width="600" height="600" src="images/overall_histogram_trellis.png">
 fig.ii. Overall Histogram Trellis
 
-
 Fig.iii. shows a comparison of the distribution of data points between sepal length and sepal width. This comparison goes into greater detail in figures iv and v and compares sepal lengths and widths across the 3 Iris species. 
 <img width="600" height="600" src="images/histogram_sepal_width_sepal_length_comparison.png">
 fig.iii. Histogram Sepal Length & Width Comparison
