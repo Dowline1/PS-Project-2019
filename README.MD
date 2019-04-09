@@ -46,6 +46,7 @@ Support Vector Machines
 ## Histograms of Dataset
 
 Fig.ii. shows a histogram of all elements of the Iris dataset combined and gives a nice presentation of the distribution of the measurements taken during the study.
+
 <img width="600" height="600" src="images/overall_histogram_trellis.png">
 fig.ii. Overall Histogram Trellis
 
