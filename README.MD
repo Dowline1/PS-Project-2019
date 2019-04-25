@@ -80,6 +80,12 @@ Fig.vi. show as comparison of the districbution of data points between petal len
 
 ## Scatterplot of Dataset
 
+Figures viii and ix show scatter plots of the dataset by sepal length & width and petal length and width respectively. 
+
+These two plots are what I consider to give the best insight into the dataset in particular fig. ix as it shows a clear correlation between the measurements taken and the different species of iris and would lend itself best for machine learning and how simply by the measurements taken the algorithms could determine the species in question.
+
+The grouping between the different species is very clear with the distrbution of points being quite unique to the species related.
+
 <img width="600" height="600" src="images/sepal_length_sepal_width_scatter.png">
 
 **fig.viii. Scatterplot Sepal Length & Width**
