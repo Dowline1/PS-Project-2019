@@ -25,15 +25,21 @@ Fisher remained in Cambridge University for an additional year to continue work 
 
 In the year 1919 Fisher continued in his career and became the Statistician for the Rothamsted Station near to Harpenden in Hertfordshite specifically conducting statistical work relating to plant breeding experiments. Then in 1933 Fisher became Galton Professor of Eugenics at Universit College London which combined with previous experiments would lead him to publishing his paper on The use of Multiple Measurements in Taxonomic Problems that will relate directly to this Project.
 
-**Multivariate Statistics**
+**Machine Learning**
 
-**Taxonomic Problems Paper**
 
-**Iris Species**
+**Setosa Iris**
+
+
+
 
 <img width="400" height="400" src="images/iris_diagram.png">
 
 **fig.i. Iris Diagram**
+
+<img width="400" height="400" src="images/iris_flowers_image.png">
+
+**fig.ii. Iris Species in Study**
 
 **Statistical Classification**
 
@@ -44,43 +50,43 @@ Support Vector Machines
 
 ## Histograms of Dataset
 
-Fig.ii. shows a histogram of all elements of the Iris dataset combined and gives a nice presentation of the distribution of the measurements taken during the study.
+Fig.iii. shows a histogram of all elements of the Iris dataset combined and gives a nice presentation of the distribution of the measurements taken during the study.
 
 <img width="600" height="600" src="images/overall_histogram_trellis.png">
 
-**fig.ii. Overall Histogram Trellis**
+**fig.iii. Overall Histogram Trellis**
 
-Fig.iii. shows a comparison of the distribution of data points between sepal length and sepal width. This comparison goes into greater detail in figures iv and v and compares sepal lengths and widths across the 3 Iris species. 
+Fig.iv. shows a comparison of the distribution of data points between sepal length and sepal width. This comparison goes into greater detail in figures v and vi and compares sepal lengths and widths across the 3 Iris species. 
 
 <img width="600" height="600" src="images/histogram_sepal_width_sepal_length_comparison.png">
 
-**fig.iii. Histogram Sepal Length & Width Comparison**
+**fig.iv. Histogram Sepal Length & Width Comparison**
 
 <img width="600" height="600" src="images/histogram_sepal_length_species_comparison.png">
 
-**fig.iv. Histogram Sepal Length Species Comparison**
+**fig.v. Histogram Sepal Length Species Comparison**
 
 <img width="600" height="600" src="images/histogram_sepal_width_species_comparison.png">
 
-**fig.v. Histogram Sepal Width Species Comparison**
+**fig.vi. Histogram Sepal Width Species Comparison**
 
-Fig.vi. show as comparison of the districbution of data points between petal length an dpetal width. The comparison again goes into greater detail in figures vii and viii and compares sepal lengths and widths across the 3 Iris species.
+Fig.vii. show as comparison of the districbution of data points between petal length an dpetal width. The comparison again goes into greater detail in figures viii and ix and compares sepal lengths and widths across the 3 Iris species.
 
 <img width="600" height="600" src="images/histogram_petal_width_petal_length_comparison.png">
 
-**fig.vi. Histogram Petal Length & Width Comparison**
+**fig.vii. Histogram Petal Length & Width Comparison**
 
 <img width="600" height="600" src="images/histogram_petal_length_species_comparison.png">
 
-**fig.vii. Histogram Petal Length Species Comparison**
+**fig.viii. Histogram Petal Length Species Comparison**
 
 <img width="600" height="600" src="images/histogram_petal_width_species_comparison.png">
 
-**fig.vii. Histogram Petal Width Species Comparison**
+**fig.ix. Histogram Petal Width Species Comparison**
 
 ## Scatterplot of Dataset
 
-Figures viii and ix show scatter plots of the dataset by sepal length & width and petal length and width respectively. 
+Figures x and xi show scatter plots of the dataset by sepal length & width and petal length and width respectively. 
 
 These two plots are what I consider to give the best insight into the dataset in particular fig. ix as it shows a clear correlation between the measurements taken and the different species of iris and would lend itself best for machine learning and how simply by the measurements taken the algorithms could determine the species in question.
 
@@ -88,11 +94,11 @@ The grouping between the different species is very clear with the distrbution of
 
 <img width="600" height="600" src="images/sepal_length_sepal_width_scatter.png">
 
-**fig.viii. Scatterplot Sepal Length & Width**
+**fig.x. Scatterplot Sepal Length & Width**
 
 <img width="600" height="600" src="images/petal_length_petal_width_scatter.png">
 
-**fig.ix. Scatterplot Petal Length & Width**
+**fig.xi. Scatterplot Petal Length & Width**
 
 
 ## Results of Python Calculations
