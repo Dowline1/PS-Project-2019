@@ -11,8 +11,9 @@ This repository contains my files, data and python code for the Programming & Sc
 
 1. Make sure you have Python installed.
 2. Instructions on how to install can be found in this [video.](https://web.microsoftstream.com/video/53a85003-eaaa-4724-afc2-b99ead7a0339)
-3. You can then run Python files using a comman line interface such as CMDER install instructions located [here.](https://web.microsoftstream.com/video/52f3a795-f402-4862-8e14-94d3285bc807)
+3. You can then run Python files using a command line interface such as CMDER install instructions located [here.](https://web.microsoftstream.com/video/52f3a795-f402-4862-8e14-94d3285bc807)
 4. If additional help is required consult this video on [executing](https://web.microsoftstream.com/video/cd3347c4-8296-4e8c-bb63-01ef5452de17) a program.
+5. The code to execute the actions that generated the tables and graphs in this project is contained in fisher_iris.py.
 
 
 ## Background
@@ -25,12 +26,11 @@ Fisher remained in Cambridge University for an additional year to continue work 
 
 In the year 1919 Fisher continued in his career and became the Statistician for the Rothamsted Station near to Harpenden in Hertfordshite specifically conducting statistical work relating to plant breeding experiments. Then in 1933 Fisher became Galton Professor of Eugenics at Universit College London which combined with previous experiments would lead him to publishing his paper on The use of Multiple Measurements in Taxonomic Problems that will relate directly to this Project.
 
-**Machine Learning**
+**The Dataset**
 
+The data collected by Fisher for this dataset is a multivariate dataset meaning that it contains two or more variable quantities for us Iris Species. The dataset contains 50 samples from three different secies of iris flowers (Iris setosa, Iris virginica and Iris versicolor) show in figure ii. The four features measured as part of the study are the sepal and petal lengths and widths in cm's and can be seen in figure i. This dataset is one of the most prominently studied examples of discriminant analysis in data analytics.
 
-**Setosa Iris**
-
-
+Discriminant analysis is a method of differentiating between categories (iris species) by comparing and determining what variables of the dataset are most similar and also most different that can be used to identify a pattern. This data and understanding can then be used to determine the species of iris in our case simply by looking at the measurements taken as part of the study.
 
 
 <img width="400" height="400" src="images/iris_diagram.png">
@@ -41,12 +41,11 @@ In the year 1919 Fisher continued in his career and became the Statistician for 
 
 **fig.ii. Iris Species in Study**
 
-**Statistical Classification**
-
 **Machine Learning**
-Support Vector Machines
 
-## How to Run the Code
+Machine Learning is an aspect of Artificial Intelligence or AI for short. AI allows for computer systems to learn automatically and improve there methods from experiences without the methods being specifically programmed into them. The process of machine learning starts with the initial observation of the data throughout the life cycle of the AI. The AI is looking for patterns in the data that it observes and from this the AI learns how it can better tackle similar instances in the future.
+
+The main goal of these AI's is to give them the ability to automatically learn without any input from humans and gain the ability to adapt there actions according to the scenario presented to them.
 
 ## Histograms of Dataset
 
@@ -321,3 +320,5 @@ Note: Additional reference information and detailed commentary on how the Python
 - Seaborn guide for Scatter Plots [link](http://python-graph-gallery.com/scatter-plot/)
 - Color codes [link](https://matplotlib.org/examples/color/named_colors.html)
 - Filtering Dataframes [link](https://pythonspot.com/pandas-filter/)
+- Machine Learning Fisher Dataset [link](https://diwashrestha.com/2017/09/18/machine-learning-on-iris/)
+- Machine Learning in General [link](https://www.expertsystem.com/machine-learning-definition/)
