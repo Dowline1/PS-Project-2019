@@ -37,7 +37,7 @@ In the year 1919 Fisher continued in his career and became the Statistician for 
 
 **fig.i. Iris Diagram**
 
-<img width="400" height="400" src="images/iris_flowers_image.png">
+<img src="images/iris_flowers_image.png">
 
 **fig.ii. Iris Species in Study**
 
