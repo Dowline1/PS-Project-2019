@@ -35,9 +35,6 @@ overall_mean.to_csv('files/overall_mean.csv')
 median_by_species.to_csv('files/median_by_species.csv')
 overall_median.to_csv('files/overall_median.csv')
 
-
-
-
 # Colors SL=Blue, SW=Orange, PL=Cyan, PW=Crimson
 # Color codes taken from: https://matplotlib.org/examples/color/named_colors.html
 # Seaborn graphs adapting code from: http://python-graph-gallery.com/histogram/
@@ -101,6 +98,37 @@ sbn.lmplot( x='petal_length', y='petal_width', data=df, fit_reg=False, hue='spec
 plt.legend(loc='lower right')
 plt.savefig('images/petal_length_petal_width_scatter.png')
 
+plt.cla()
+
+# Pallete for box plots
+my_pal = {"versicolor": "g", "setosa": "magenta", "virginica":"aqua"}
+
+# Code to creat Box Plot Graphs adapted from: https://python-graph-gallery.com/33-control-colors-of-boxplot-seaborn/
+# Sepal Length
+sbn.boxplot( x=df["species"], y=df["sepal_length"], palette=my_pal)
+plt.legend()
+plt.savefig('images/boxplot_sepal_length_species_comparison')
+
+plt.cla()
+
+# Sepal Width
+sbn.boxplot( x=df["species"], y=df["sepal_width"], palette=my_pal)
+plt.legend()
+plt.savefig('images/boxplot_sepal_width_species_comparison')
+
+plt.cla()
+
+# Petal Length
+sbn.boxplot( x=df["species"], y=df["petal_length"], palette=my_pal)
+plt.legend()
+plt.savefig('images/boxplot_petal_length_species_comparison')
+
+plt.cla()
+
+# Petal Width
+sbn.boxplot( x=df["species"], y=df["petal_width"], palette=my_pal)
+plt.legend()
+plt.savefig('images/boxplot_petal_width_species_comparison')
 
 
 # Code for graphs adapted from: https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html 

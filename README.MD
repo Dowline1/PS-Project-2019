@@ -99,6 +99,26 @@ The grouping between the different species is very clear with the distrbution of
 
 **fig.xi. Scatterplot Petal Length & Width**
 
+## Boxplot of Dataset
+
+Figures xii, xiii, xiv and xv show box plots of the dataset by Sepal Length/Width and Petal Length/Width respectively.
+
+<img width="600" height="600" src="boxplot_sepal_length_species_comparison.png">
+
+**fig.xii. Boxplot Sepal Length Species Comparison**
+
+<img width="600" height="600" src="boxplot_sepal_width_species_comparison.png">
+
+**fig.xiii. Boxplot Sepal Width Species Comparison**
+
+<img width="600" height="600" src="boxplot_petal_length_species_comparison.png">
+
+**fig.xiii. Boxplot Petal Length Species Comparison**
+
+<img width="600" height="600" src="boxplot_petal_width_species_comparison.png">
+
+**fig.xiii. Boxplot Petal Width Species Comparison**
+
 
 ## Results of Python Calculations
 
