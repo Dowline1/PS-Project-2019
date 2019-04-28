@@ -103,7 +103,7 @@ The grouping between the different species is very clear with the distrbution of
 
 Figures xii, xiii, xiv and xv show box plots of the dataset by Sepal Length/Width and Petal Length/Width respectively.
 
-<img width="600" height="600" src="boxplot_sepal_length_species_comparison.png">
+<img src="boxplot_sepal_length_species_comparison.png">
 
 **fig.xii. Boxplot Sepal Length Species Comparison**
 
