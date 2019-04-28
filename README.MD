@@ -123,6 +123,30 @@ These graphs give a nice summary of each of the numeric variables. The line in t
 **fig.xiii. Boxplot Petal Width Species Comparison**
 
 
+## Violinplot of Dataset
+
+Figures xvi, xvii, xviii and xix show violin plots of the dataset by Sepal Length/Width and Petal Length/Width respectively.
+
+
+These graphs are quite similar to the boxplot but give a greater level of detail into the distribution of the data throughout the grouping.
+
+<img width="600" height="600" src="images/violinplot_sepal_length_species_comparison.png">
+
+**fig.xii. Violinplot Sepal Length Species Comparison**
+
+<img width="600" height="600" src="images/violinplot_sepal_width_species_comparison.png">
+
+**fig.xiii. Violinplot Sepal Width Species Comparison**
+
+<img width="600" height="600" src="images/violinplot_petal_length_species_comparison.png">
+
+**fig.xiii. Violinplot Petal Length Species Comparison**
+
+<img width="600" height="600" src="images/violinplot_petal_width_species_comparison.png">
+
+**fig.xiii. Violinplot Petal Width Species Comparison**
+
+
 ## Results of Python Calculations
 
 **Overall Dataset Mean**

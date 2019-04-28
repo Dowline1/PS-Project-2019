@@ -130,6 +130,36 @@ sbn.boxplot( x=df["species"], y=df["petal_width"], palette=my_pal)
 plt.legend()
 plt.savefig('images/boxplot_petal_width_species_comparison')
 
+plt.cla()
+
+# Code to create violin plot graphs adapted from: https://python-graph-gallery.com/53-control-color-of-seaborn-violinplot/
+# Sepal Length
+sbn.violinplot( x=df["species"], y=df["sepal_length"], palette=my_pal)
+plt.legend()
+plt.savefig('images/violinplot_sepal_length_species_comparison')
+
+plt.cla()
+
+# Sepal Width
+sbn.violinplot( x=df["species"], y=df["sepal_width"], palette=my_pal)
+plt.legend()
+plt.savefig('images/violinplot_sepal_width_species_comparison')
+
+plt.cla()
+
+# Petal Length
+sbn.violinplot( x=df["species"], y=df["petal_length"], palette=my_pal)
+plt.legend()
+plt.savefig('images/violinplot_petal_length_species_comparison')
+
+plt.cla()
+
+# Petal Width
+sbn.violinplot( x=df["species"], y=df["petal_width"], palette=my_pal)
+plt.legend()
+plt.savefig('images/violinplot_petal_width_species_comparison')
+
+plt.cla()
 
 # Code for graphs adapted from: https://pandas.pydata.org/pandas-docs/stable/user_guide/visualization.html 
 df.hist(bins=10)
