@@ -103,6 +103,9 @@ The grouping between the different species is very clear with the distrbution of
 
 Figures xii, xiii, xiv and xv show box plots of the dataset by Sepal Length/Width and Petal Length/Width respectively.
 
+
+These graphs give a nice summary of each of the numeric variables. The line in the middle of the plot represents the median value of the data with the upper and lower quartiles of the data. The graphs give a nice view of how the different species are seperated on values quite clearly.
+
 <img width="600" height="600" src="images/boxplot_sepal_length_species_comparison.png">
 
 **fig.xii. Boxplot Sepal Length Species Comparison**
